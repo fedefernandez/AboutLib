@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- You need to define this -->
+    <string name="about_app_name"></string>
+    <string name="about_contact_button_1"></string>
+    <string name="about_contact_button_1_url"></string>
+    <string name="about_contact_button_2"></string>
+    <string name="about_contact_button_2_url"></string>
+    <string name="about_mail_subject"></string>
+    <string name="about_mail_body"></string>
+    <string name="about_facebook_url"></string>
+    <string name="about_facebook_title"></string>
+    <string name="about_twitter_msg"></string>
+    <string name="about_problem_msg"></string>
+    <string name="about_problem_dialog_button"></string>
+    <string name="about_problem_mail"></string>
+    <string name="about_problem_subject"></string>
+    <string name="about_pro_package"></string>
+    <!-- You need to define this -->
+    
+    <string name="about_contact_title">Contact</string>
+    <string name="about_contact_license">License</string>
+    <string name="about_apps_title">Applications</string>
+    <string name="about_comments_title">Comments</string>
+    <string name="about_comments_like">I Like %s</string>
+    <string name="about_comments_problem">I have a problem</string>
+    <string name="about_comments_getpro">Get PRO version</string>
+    <string name="about_comments_pro_comming_soon">Comming soon</string>
+    <string name="about_comments_pro_title">PRO version features</string>
+    <string name="about_comments_like_market">Submit a comment</string>
+    <string name="about_comments_like_email">Share by email</string>
+    <string name="about_comments_like_facebook">Share on facebook</string>
+    <string name="about_comments_like_twitter">Share on Twitter</string>
+
+</resources>

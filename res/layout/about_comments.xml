@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/about_like"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/button_like"
+            android:onClick="aboutLike"
+            android:text="@string/about_comments_like"
+            style="?aboutButtonStyle" />
+
+        <Button
+            android:id="@+id/about_problem"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/button_problem"
+            android:onClick="aboutProblem"
+            android:text="@string/about_comments_problem"
+            style="?aboutButtonStyle" />
+
+        <Button
+            android:id="@+id/about_getpro"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/button_getpro"
+            android:onClick="aboutPro"
+            android:text="@string/about_comments_getpro"
+            style="?aboutButtonStyle" />
+
+        <TextView
+            android:id="@+id/about_comments_pro_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="?aboutTitleStyle"
+            android:text="@string/about_comments_pro_title" />
+
+        <TextView
+            android:id="@+id/about_comments_pro_features"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            style="?aboutMsgStyle" />
+    </LinearLayout>
+
+</ScrollView>

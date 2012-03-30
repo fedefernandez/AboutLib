@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    android:background="@color/about_background">    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+    
+        <Button 
+            android:id="@+id/about_like_market"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/button_market"
+            android:text="@string/about_comments_like_market"
+            style="?aboutButtonStyle"/>
+    
+        <Button 
+            android:id="@+id/about_like_mail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/button_email"
+            android:text="@string/about_comments_like_email"
+            style="?aboutButtonStyle"/>
+    
+        <Button 
+            android:id="@+id/about_like_facebook"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/button_facebook"
+            android:text="@string/about_comments_like_facebook"
+            style="?aboutButtonStyle"/>
+    
+        <Button 
+            android:id="@+id/about_like_twitter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/button_twitter"
+            android:text="@string/about_comments_like_twitter"
+            style="?aboutButtonStyle"/>
+    
+    </LinearLayout>
+</ScrollView>

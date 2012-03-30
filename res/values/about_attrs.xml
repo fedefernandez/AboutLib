@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <declare-styleable name="AboutTheme">
+        <attr name="aboutViewPagerIndicatorStyle" format="reference" />
+        <attr name="aboutAppTitleStyle" format="reference" />
+        <attr name="aboutTitleStyle" format="reference" />
+        <attr name="aboutMsgStyle" format="reference" />
+        <attr name="aboutButtonStyle" format="reference" />
+        <attr name="aboutContactButtonStyle" format="reference" />
+        <attr name="aboutAppsTitleStyle" format="reference" />
+        <attr name="aboutAppsMsgStyle" format="reference" />
+	</declare-styleable>
+</resources>

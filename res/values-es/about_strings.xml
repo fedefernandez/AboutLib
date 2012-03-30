@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="about_contact_title">Contacto</string>
+    <string name="about_contact_license">Licencia</string>
+    <string name="about_apps_title">Aplicaciones</string>
+    <string name="about_comments_title">Comentarios</string>
+    <string name="about_comments_like">Me gusta %s</string>
+    <string name="about_comments_problem">Tengo un problema</string>
+    <string name="about_comments_getpro">Obten la versión PRO</string>
+    <string name="about_comments_pro_comming_soon">Próximamente</string>
+    <string name="about_comments_pro_title">Características de la versión PRO</string>
+    <string name="about_comments_like_market">Envía un comentario</string>
+    <string name="about_comments_like_email">Comparte por correo</string>
+    <string name="about_comments_like_facebook">Comparte en facebook</string>
+    <string name="about_comments_like_twitter">Comparte en Twitter</string>
+
+</resources>

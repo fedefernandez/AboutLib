@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apps version="1">
+    <app
+        title="Simple DiceRoller"
+        package="com.projectsexception"
+        icon="http://simple-diceroller.googlecode.com/svn/trunk/res/drawable-hdpi/icon.png">
+        Open Source easy to use dice roller for Android platform. Simple DiceRoller is licensed under GNU GPL v3.
+    </app>
+    <app
+        title="Mis Restaurantes"
+        package="difed.restaurante"
+        icon="http://misrestaurantes.googlecode.com/svn/trunk/MisRestaurantes/res/drawable-hdpi/icon.png">
+        Permite guardar los restaurantes favoritos, asi como buscarlos de una forma optima. Permite enviarlos y recibirlos.
+    </app>
+    <app
+        title="ccCamDroid"
+        package="com.difed.cccam"
+        icon="http://android-cccam.googlecode.com/svn/trunk/res/drawable-hdpi/icon.png">
+        Check the status of your CCCAM server
+    </app>
+</apps>

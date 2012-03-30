@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="Theme.About" parent="android:Theme.NoTitleBar">
+        <item name="aboutViewPagerIndicatorStyle">@style/WidgetAboutIndicator</item>
+        <item name="aboutAppTitleStyle">@style/AboutAppTitle</item>
+        <item name="aboutTitleStyle">@style/AboutTitle</item>
+        <item name="aboutMsgStyle">@style/AboutMsg</item>
+        <item name="aboutButtonStyle">@style/AboutButton</item>
+        <item name="aboutContactButtonStyle">@style/AboutContactButton</item>
+        <item name="aboutAppsTitleStyle">@style/AboutAppsTitle</item>
+        <item name="aboutAppsMsgStyle">@style/AboutAppsMsg</item>
+    </style>
+    
+    <style name="WidgetAboutIndicator">
+        <item name="android:background">#FFDDDDDD</item>
+        <item name="footerColor">#FFEE3333</item>
+        <item name="footerLineHeight">2dp</item>
+        <item name="textColor">#FF999999</item>
+        <item name="selectedColor">#FF000000</item>
+        <item name="selectedBold">false</item>
+    </style>
+    
+    <style name="AboutAppTitle" parent="android:Widget.TextView">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="AboutTitle" parent="android:Widget.TextView">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    
+    <style name="AboutMsg" parent="android:Widget.TextView">
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    
+    <style name="AboutButton" parent="android:Widget.Button">
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    
+    <style name="AboutContactButton" parent="android:Widget.Button">
+    </style>
+    
+    <style name="ViewPagerStyle">
+    </style>
+    
+    <style name="AboutAppsTitle" parent="android:Widget.TextView">
+    </style>
+    
+    <style name="AboutAppsMsg" parent="android:Widget.TextView">
+    </style>
+    
+</resources>
